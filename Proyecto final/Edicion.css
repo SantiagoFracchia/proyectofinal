@@ -1,0 +1,130 @@
+body{
+    margin:0;
+}
+header{
+    background-image: url("./imagenes/20x20\ \(3\).jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+        }
+nav a{
+    color: azure;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    }
+
+nav a:hover{
+    color: rgb(5, 120, 197);
+            }
+
+.titulo{
+    position:fixed;
+    width: 100%;
+    height: 1.5%;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 2rem 0;
+        }
+
+#we{
+height: 100vh;
+margin: 10% auto;
+}
+.h2{
+    color: rgb(5, 120, 197);
+    margin: auto;
+    text-align: center;
+    font-style: normal;
+    font-size: 2rem;
+}
+.pstyle{
+    font-size: 1rem;
+}
+#textoC{
+    width: 50%;
+    background-color: teal;
+    margin: 0px auto;
+}
+
+.cuadritos{
+    background-color: teal;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.relativo{
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: none;
+    float:left;
+}
+.absoluto{
+    background-size: cover;
+    position: absolute;
+    border: none;
+    bottom: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+
+#river{
+    background-image: url("./Clientes/river.png");
+    background-position: center center;
+    background-size: cover;
+}
+#coppel{
+    background-image: url("./Clientes/Coppel.png");
+    background-position: center center;
+    background-size: cover;
+}
+#CNEA{
+    background-image: url("./Clientes/CNEA.svg");
+    background-position: center center;
+    background-size: cover;
+}
+#Defyjus{
+    background-image: url("./Clientes/defensa.png");
+    background-position: center center;
+    background-size: cover;
+}
+#CasaRosada{
+    background-image: url("./Clientes/Casa\ Rosada.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+#COEPAZ{
+    background-image: url("./Clientes/coepaz.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+#info{
+    display: flex;
+    height: 100vh;
+}
+#info div{
+    border: none;
+    padding: 1rem;
+}
+#ubicacion{
+    background-color: teal;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    width: 50%;
+    margin:0px auto;
+}
+#mapaG{
+    background-color: yellow;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto ;
+}
